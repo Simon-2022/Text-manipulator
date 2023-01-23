@@ -14,3 +14,8 @@ function modelLoaded() {
 function draw() {
     background('#969A97');
 }
+function gotPoses(results) {
+    if(results.length > 0) {
+        console.log(results);
+    }
+}
